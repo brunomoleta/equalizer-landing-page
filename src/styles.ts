@@ -7,18 +7,22 @@ const GlobalStyles = createGlobalStyle<{
 }>`
     body {
             overflow:hidden;
-        
+        // Mobile 
         @media screen and (max-width:375px){
             background-color:green;
         }
+
+        // Tablet
         @media screen and (min-width:375px){
             background-color:orange;
         }
 
+        // Labtop
         @media screen and (min-width:768px){
             background-color:yellow
         }
 
+        // Desktop
         @media screen and (min-width:1440px){
             background-color:red;
         }
