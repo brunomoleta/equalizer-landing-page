@@ -7,16 +7,16 @@ const GlobalStyles = createGlobalStyle<{
 }>`
     body {
             overflow:hidden;
-        @media screen and (min-width:376px){
-            background:${(props) => props.theme.thirdColor};
+        @media screen and (min-width:375px){
+            background-color:green
         }
 
-        @media screen and (min-width:769px){
-            background:${(props) => props.theme.firstColor};
+        @media screen and (min-width:768px){
+            background-color:yello
         }
 
         @media screen and (min-width:1440px){
-            background:${(props) => props.theme.secoundColor}
+            background-color:red;
         }
     }
 `;
