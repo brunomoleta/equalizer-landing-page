@@ -11,7 +11,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <h1>I'm In</h1>
-        <h2>Added in from my labtop</h2>
+        <h2>Added in</h2>
         
         <a
           className="App-link"
