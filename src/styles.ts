@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle<{
     body {
             overflow:hidden;
         @media screen and (min-width:375px){
-            background-color:green
+            background-color:green;
         }
 
         @media screen and (min-width:768px){
