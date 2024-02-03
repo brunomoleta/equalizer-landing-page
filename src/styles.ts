@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle<{
         }
 
         @media screen and (min-width:768px){
-            background-color:yello
+            background-color:yellow
         }
 
         @media screen and (min-width:1440px){
