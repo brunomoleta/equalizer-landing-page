@@ -5,4 +5,7 @@ export const StyledLandingPage = styled.section<{ theme: typeof theme; font: typ
   overflow: hidden;
   background-color: ${(props) => props.theme.firstColor};
   font-family: ${(props) => props.font.primaryFont}; // Applying the font-family here
+  font-style:normal;
+  font-weight:700;
+  font-size:72px;
 `;

@@ -7,7 +7,7 @@ export default class LandingPage extends Component {
     return (
       <div>
         <StyledLandingPage theme={theme} font={font}>
-          Hello Landing Page
+          <h1>Hellow Landing Page</h1>
         </StyledLandingPage>
       </div>
     );
