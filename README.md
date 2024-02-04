@@ -84,6 +84,7 @@ const proudOfThisFunc = () => {
     }
     const {theme} = this.props;
 ```
+<h2>HOw to design props and reusable component</h2>
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
