@@ -6,7 +6,7 @@ export default class LandingPage extends Component {
   render(): ReactNode {
     return (
       <div>
-        <StyledLandingPage theme={theme} font={font}>
+        <StyledLandingPage theme={theme} $font={font}>
           <h1>Hellow Landing Page</h1>
         </StyledLandingPage>
       </div>

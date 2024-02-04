@@ -5,6 +5,11 @@ const GlobalStyles = createGlobalStyle<{
   theme: typeof theme;
   fonts: typeof font;
 }>`
+    * {
+        margin: 0;
+        padding: 0;
+        boxsing:border-box;
+    }
     body {
             overflow:hidden;
         // Mobile 
