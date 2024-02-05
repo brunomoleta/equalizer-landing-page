@@ -1,6 +1,15 @@
 import styled from 'styled-components';
-import {AndroidBtnProps} from './AndroidBtn';
+// import { BtnProps } from './TestBtn';
 
-export const StyledAndroidBtn = styled.button<AndroidBtnProps['style']>`
- //      
+export interface BtnProps {
+  color?: string;
+    size?:string;
+}
+
+
+export const StyledTestBtn = styled.button<BtnProps>`
+    background-color: ${(props) => props.color};
+    width: 200px;
+    height: 200px;
+    font-size:${(props) => props.size}
 `;
