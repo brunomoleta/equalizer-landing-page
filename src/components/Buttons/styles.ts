@@ -14,3 +14,8 @@ export const StyledTestBtn = styled.button<BtnProps>`
   height: 200px;
   font-size: ${(props) => props.size};
 `;
+
+
+export const StyledDownloadBtn = styled.button`
+  //
+`;
