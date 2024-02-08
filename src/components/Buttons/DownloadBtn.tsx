@@ -8,7 +8,7 @@ interface DownloadBtnProps {
 
 export default class DownloadBtn extends Component<DownloadBtnProps> {
   render(): ReactNode {
-    const {label, ...rest} = this.props;
+    const { label } = this.props;
     return (
       <StyledDownloadBtn>
         <svg width="17" height="20" xmlns="http://www.w3.org/2000/svg">

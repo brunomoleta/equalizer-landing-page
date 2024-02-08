@@ -4,7 +4,7 @@ import styled from "styled-components";
 export interface BtnProps {
   color?: string;
   size?: string;
-width?:string;
+  width?: string;
 }
 
 export const StyledTestBtn = styled.button<BtnProps>`
@@ -15,7 +15,11 @@ export const StyledTestBtn = styled.button<BtnProps>`
   font-size: ${(props) => props.size};
 `;
 
-
 export const StyledDownloadBtn = styled.button`
   //
+  display: flex;
+  // align-items: center;
+  // align-items:baseline;
+  align-items:center;
+  justify-content: center;
 `;
