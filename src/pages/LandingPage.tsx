@@ -1,13 +1,13 @@
 import { Component } from "react";
 import { theme, font } from "../utilities";
 import { StyledLandingPage } from "./styles";
-// import TestBtn from "../components/Buttons/TestBtn";
 import DownloadBtn from "../components/Buttons/DownloadBtn";
 
 export default class LandingPage extends Component {
   onClick = () => {
-    console.log("Your cliked button");
-  };
+    console.log('Your cliked button');
+  }
+
   render() {
     return (
       <div>

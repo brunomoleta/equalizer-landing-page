@@ -4,13 +4,14 @@ import { StyledDownloadBtn } from "./styles";
 interface DownloadBtnProps {
   onClick: () => void;
   label: "android" | "ios";
+  // label: string;
 }
 
 export default class DownloadBtn extends Component<DownloadBtnProps> {
   render(): ReactNode {
-    const { label } = this.props;
+    const { label, onClick } = this.props;
     return (
-      <StyledDownloadBtn>
+      <StyledDownloadBtn onClick={onClick}>
         {label === "android" ? (
           <svg width="17" height="20" xmlns="http://www.w3.org/2000/svg">
             <path
