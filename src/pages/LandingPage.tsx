@@ -2,7 +2,7 @@ import { Component } from "react";
 import { theme, font } from "../utilities";
 import { StyledLandingPage } from "./styles";
 import DownloadBtn from "../components/Buttons/DownloadBtn";
-import TestBtn from "../components/Buttons/TestBtn";
+// import TestBtn from "../components/Buttons/TestBtn";
 
 export default class LandingPage extends Component {
   onClick = () => {

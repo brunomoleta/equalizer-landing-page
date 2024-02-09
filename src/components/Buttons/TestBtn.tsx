@@ -1,4 +1,4 @@
-import React, { Component, ReactNode } from "react";
+import { Component, ReactNode } from "react";
 import { StyledTestBtn } from "./styles";
 
 export interface TesetBtnProps {
