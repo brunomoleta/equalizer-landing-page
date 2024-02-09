@@ -33,7 +33,7 @@ export const StyledDownloadBtn = styled.button<BtnProps>`
 
   &:hover{
     background-color:${(props) => props.label === 'Android' ? '#FFB964' : '#66E2DC'};
-    transition:0.3s;
+    transition:0.38s;
   }
 
   :nth-child(2) {
