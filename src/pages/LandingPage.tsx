@@ -1,8 +1,11 @@
 import { Component } from "react";
 import { theme, font } from "../utilities";
 import { StyledLandingPage } from "./styles";
+// import Logo from '../components/Logo/Logo';
+// import Image from "../components/Img/Image";
+// import mobilePng from '../assets/bg-main-mobile.png';
 import DownloadBtn from "../components/Buttons/DownloadBtn";
-import Logo from '../components/Logo/Logo';
+
 
 
 export default class LandingPage extends Component {
@@ -13,13 +16,12 @@ export default class LandingPage extends Component {
 
   render() {
     return (
-      <div>
         <StyledLandingPage theme={theme} $font={font}>
-          <Logo label="equalizer" />          
-          <DownloadBtn onClick={this.onClick} label="Android" />
-          <DownloadBtn onClick={this.onClick} label="IOS" />
+          <h1>Hello world</h1>
+          <DownloadBtn label="Android" onClick={this.onClick}/>
+          {/* <Logo label="equalizer" />            */}
+           {/* <Image urlImg={mobilePng} /> */}
         </StyledLandingPage>
-      </div>
     );
   }
 }
