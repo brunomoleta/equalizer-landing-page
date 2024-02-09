@@ -31,6 +31,11 @@ export const StyledDownloadBtn = styled.button<BtnProps>`
   text-align: center;
   letter-spacing: -0.18px;
 
+  &:hover{
+    background-color:${(props) => props.label === 'Android' ? '#FFB964' : '#66E2DC'};
+    transition:0.3s;
+  }
+
   :nth-child(2) {
     margin-left: 5px;
   }

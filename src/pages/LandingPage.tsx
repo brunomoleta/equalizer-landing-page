@@ -7,7 +7,7 @@ import DownloadBtn from "../components/Buttons/DownloadBtn";
 export default class LandingPage extends Component {
   onClick = () => {
     console.log('Your cliked button');
-    alert('You cliked Download button');
+    // alert('You cliked Download button');
   }
 
   render() {
