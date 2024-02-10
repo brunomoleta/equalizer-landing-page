@@ -1,27 +1,26 @@
+// LandingPage.js
 import { Component } from "react";
 import { theme, font } from "../utilities";
 import { StyledLandingPage } from "./styles";
-import Logo from '../components/Logo/Logo';
 import Image from "../components/Img/Image";
 import mobilePng from '../assets/bg-main-mobile.png';
-// import DownloadBtn from "../components/Buttons/DownloadBtn";
-
-
+import Card from "./sections/Card";
+import Footer from "./sections/Footer";
+import Header from "./sections/Header";
+// import Header from "./sections/header";
 
 export default class LandingPage extends Component {
-  onClick = () => {
-    console.log('Your cliked button');
-    // alert('You cliked Download button');
-  }
 
   render() {
     return (
       <StyledLandingPage theme={theme} $font={font}>
-        {/* <h1>Hello world</h1> */}
-        {/* <DownloadBtn label="Android" onClick={this.onClick}/> */}
-        <Logo label="equalizer" />
+        <Header />
+        <Card />
+        <Footer />
+        {/* <Header /> */}
         <Image urlImg={mobilePng} />
       </StyledLandingPage>
     );
   }
 }
+
