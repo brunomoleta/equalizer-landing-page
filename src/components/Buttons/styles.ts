@@ -10,7 +10,7 @@ export interface BtnProps {
 
 export const StyledTestBtn = styled.button<BtnProps>`
   background-color: ${(props) => props.color};
-  width${(props) => props.width};
+  width:${(props) => props.width};
   height: 200px;
   font-size: ${(props) => props.size};
 `;
