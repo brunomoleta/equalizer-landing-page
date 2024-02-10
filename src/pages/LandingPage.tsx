@@ -15,7 +15,6 @@ export default class LandingPage extends Component {
         <Header />
         <Card />
         <Footer />
-        {/* <Header /> */}
         <Image urlImg={mobilePng} />
       </StyledLandingPage>
     );
