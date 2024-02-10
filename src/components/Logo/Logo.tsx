@@ -7,7 +7,7 @@ interface LogoProps {
 
 export default class Logo extends Component<LogoProps> {
   render(): ReactNode {
-    const { label, ...rest } = this.props;
+    // const { label } = this.props;
     return (
       <StyledLogo>
           <svg width="147" height="33" xmlns="http://www.w3.org/2000/svg">
