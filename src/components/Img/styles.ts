@@ -11,7 +11,7 @@ export const StyledImage = styled.img`
   @media screen and (min-width:375px){
   top:50%;
   left:50%;
-  transform:translate(-30%,-68%);
+  transform:translate(-30%,-70%);
 
   }
 `;
