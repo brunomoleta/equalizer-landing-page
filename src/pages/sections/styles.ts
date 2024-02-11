@@ -30,8 +30,8 @@ export const BoxHeaderContent = styled.div`
     font-size: 16px;
     line-height: 26px;
   }
-  @media screen and (max-width: 375px) {
-    padding:20px;
+  @media screen and (min-width: 375px) {
+    padding: 20px;
     width: 327px;
     margin: 0 auto;
     font-family: "IBM Plex Sans";
@@ -39,7 +39,21 @@ export const BoxHeaderContent = styled.div`
     display: block;
     display: flex;
     flex-direction: column;
-    background-color:lightblue;
+    background-color: lightblue;
+    * {
+      margin: 10px 0px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    padding: 20px;
+    width: 327px;
+    margin: 0 auto;
+    font-family: "IBM Plex Sans";
+    height: auto;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
     * {
       margin: 10px 0px;
     }
