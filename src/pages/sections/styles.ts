@@ -38,6 +38,7 @@ export const BoxHeaderContent = styled.div`
     display: block;
     display: flex;
     flex-direction: column;
+    background-color:lightblue;
     * {
       margin: 10px 0px;
     }
