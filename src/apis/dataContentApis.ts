@@ -8,8 +8,8 @@ interface DATABTN {
     ios: string;
 }
 export const dataHeaderContent: DATACONTENT = {
-    title: '',
-    content: ''
+    title: 'We make your music sound extraordinary.',
+    content: 'A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!'
 }
 
 export const cardContent: DATACONTENT = {
@@ -21,4 +21,8 @@ export const btnContent: DATABTN = {
     android: 'Android Download',
     ios: 'IOS Download'
 }
+
+
+
+
 
