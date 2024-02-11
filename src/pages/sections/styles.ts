@@ -31,6 +31,7 @@ export const BoxHeaderContent = styled.div`
     line-height: 26px;
   }
   @media screen and (max-width: 375px) {
+    padding:20px;
     width: 327px;
     margin: 0 auto;
     font-family: "IBM Plex Sans";
