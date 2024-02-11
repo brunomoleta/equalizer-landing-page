@@ -48,7 +48,8 @@ export const BoxHeaderContent = styled.div`
 
   /* Tablet screen size */
   @media screen and (min-width: 375px) {
-    width:520px;
+    /* width:520px; */
+    width:379px;
     font-style:normal;
     font-weight:700;
     font-size:64px;
