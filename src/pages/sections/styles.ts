@@ -9,7 +9,7 @@ export const BoxHeaderContent = styled.div`
   margin: 0 auto;
   font-family: "IBM Plex Sans";
   height: auto;
-  display: block;
+  display: inline-block;
   display: flex;
   flex-direction: column;
   * {
@@ -30,7 +30,8 @@ export const BoxHeaderContent = styled.div`
     font-size: 16px;
     line-height: 26px;
   }
-  @media screen and (min-width: 375px) {
+  /* Mobile scree size */
+  @media screen and (max-width: 375px) {
     padding: 20px;
     width: 327px;
     margin: 0 auto;
@@ -44,16 +45,15 @@ export const BoxHeaderContent = styled.div`
       margin: 10px 0px;
     }
   }
-  @media screen and (max-width: 375px) {
-    padding: 20px;
-    width: 327px;
-    margin: 0 auto;
-    font-family: "IBM Plex Sans";
-    height: auto;
-    display: block;
-    display: flex;
-    flex-direction: column;
-    background-color: lightblue;
+
+  /* Tablet screen size */
+  @media screen and (min-width: 375px) {
+    width:520px;
+    font-style:normal;
+    font-weight:700;
+    font-size:64px;
+    line-height:64px;
+    letter-spacing: -0.727273px;
     * {
       margin: 10px 0px;
     }
