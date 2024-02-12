@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle<{
         // Desktop
         @media screen and (min-width:1440px){
             background-color:red;
-            padding:2% 5%;
+            padding:5% 5%;
         }
     }
 `;
