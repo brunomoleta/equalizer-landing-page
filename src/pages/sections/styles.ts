@@ -11,10 +11,11 @@ export const BoxHeaderContent = styled.div`
   display: inline-block;
   display: flex;
   flex-direction: column;
+  color: #191826;
+
   * {
     margin: 10px 0px;
   }
-
   :nth-child(1) {
     font-style: bold;
     font-weight: 700;
@@ -23,6 +24,7 @@ export const BoxHeaderContent = styled.div`
     line-height: 48px;
     letter-spacing: -0.454545px;
   }
+
   :nth-child(2) {
     font-style: normal;
     font-weight: 400;
@@ -32,12 +34,10 @@ export const BoxHeaderContent = styled.div`
 
   /* Mobile scree size */
   @media screen and (max-width: 375px) {
-    padding: 20px;
     width: 327px;
     margin: 0 auto;
     font-family: "IBM Plex Sans";
     height: auto;
-    display: block;
     display: flex;
     flex-direction: column;
     background-color: lightblue;
@@ -54,14 +54,28 @@ export const BoxHeaderContent = styled.div`
     font-size: 64px;
     line-height: 64px;
     letter-spacing: -0.727273px;
-    margin-left:25px;
-    
+    margin-left: 25px;
   }
 
   // labtop screen size
-  @media screen and (max-width: 1440px){
-    background-color:Red;
+  @media screen and (min-width: 1440px) {
+    :nth-child(1) {
+      width: 1015px;
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -1px;
+    }
   }
+`;
+
+// BoxHeaderContent2
+
+export const BoxHeaderContent2 = styled.div`
+
+
 `;
 
 export const StyledFooter = styled.section`

@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { StyledHeader, BoxHeaderContent } from './styles';
+import { StyledHeader, BoxHeaderContent, BoxHeaderContent2 } from './styles';
 import Logo from '../../components/Logo/Logo'
 import { dataHeaderContent } from '../../apis/dataContentApis';
 
@@ -10,10 +10,14 @@ export default class Header extends Component {
         return (
             <StyledHeader>
                 <Logo label="equilizer" />
-                <BoxHeaderContent>
+                {/* <BoxHeaderContent>
                     <span>{title}</span>
                     <span>{content}</span>
-                </BoxHeaderContent>
+                </BoxHeaderContent> */}
+                <BoxHeaderContent2>
+                    <span>{title}</span>
+                    <span>{content}</span>
+                </BoxHeaderContent2>
             </StyledHeader>
         )
     }
