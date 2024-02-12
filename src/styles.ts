@@ -21,19 +21,19 @@ const GlobalStyles = createGlobalStyle<{
         // Tablet
         @media screen and (min-width:375px) and (max-width:767px){
             background-color:orange;
-            padding: 2% 5%;
+            padding: 5% 5%;
         }
 
         // Labtop
         @media screen and (min-width:768px) and (max-width:1439px){
             background-color:yellow;
-            padding: 2% 5%;
+            padding: 5% 5%;
         }
 
         // Desktop
         @media screen and (min-width:1440px){
             background-color:red;
-            padding:1.5% 5%;
+            padding:2% 5%;
         }
     }
 `;
