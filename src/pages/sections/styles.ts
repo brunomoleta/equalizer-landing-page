@@ -59,7 +59,7 @@ export const BoxHeaderContent = styled.div`
   }
 
   // labtop screen size
-  @media screen and (min-width: 1440px){
+  @media screen and (max-width: 1440px){
     background-color:Red;
   }
 `;
