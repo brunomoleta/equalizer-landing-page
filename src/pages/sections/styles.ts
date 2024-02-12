@@ -6,7 +6,6 @@ export const StyledHeader = styled.section`
 
 export const BoxHeaderContent = styled.div`
   width: 327px;
-  margin: 0 auto;
   font-family: "IBM Plex Sans";
   height: auto;
   display: inline-block;
@@ -30,6 +29,7 @@ export const BoxHeaderContent = styled.div`
     font-size: 16px;
     line-height: 26px;
   }
+
   /* Mobile scree size */
   @media screen and (max-width: 375px) {
     padding: 20px;
@@ -48,13 +48,14 @@ export const BoxHeaderContent = styled.div`
 
   /* Tablet screen size */
   @media screen and (min-width: 375px) {
-    /* width:520px; */
-    width:379px;
-    font-style:normal;
-    font-weight:700;
-    font-size:64px;
-    line-height:64px;
+    width: 379px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
     letter-spacing: -0.727273px;
+    margin-left:25px;
+    
     * {
       margin: 10px 0px;
     }
