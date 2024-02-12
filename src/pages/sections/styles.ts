@@ -119,6 +119,7 @@ export const BoxHeaderContent2 = styled.div`
   //Laptop screen
   @media screen and(min-width:1024px) and (max-width: 1439px) {
     :nth-child(1) {
+      color:green;
       font-weight: 700;
       font-size: 88px;
       line-height: 88px;
