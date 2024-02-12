@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle<{
         // Mobile 
         @media screen and (max-width:374px){
             background-color:green;
-            padding: 5%;
+            padding: 14% 5%;
         }
 
         // Tablet
