@@ -75,7 +75,6 @@ export const BoxHeaderContent = styled.div`
 
 export const BoxHeaderContent2 = styled.div`
 
-
 `;
 
 export const StyledFooter = styled.section`

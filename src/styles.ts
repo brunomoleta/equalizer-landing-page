@@ -15,13 +15,13 @@ const GlobalStyles = createGlobalStyle<{
         // Mobile 
         @media screen and (max-width:374px){
             background-color:green;
-            padding: 5% 2%;
+            padding: 3% 2%;
         }
 
         // Tablet
         @media screen and (min-width:375px) and (max-width:767px){
             background-color:orange;
-            padding: 5% 2%;
+            padding: 3% 2%;
         }
 
         // Labtop
@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle<{
         // Desktop
         @media screen and (min-width:1440px){
             background-color:red;
-            padding: 5% 2%;
+            padding: 2% 2%;
         }
     }
 `;
