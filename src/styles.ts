@@ -14,22 +14,22 @@ const GlobalStyles = createGlobalStyle<{
     body {
         // Mobile 
         @media screen and (max-width:374px){
-            // background-color:green;
+            background-color:green;
         }
 
         // Tablet
         @media screen and (min-width:375px) and (max-width:767px){
-            // background-color:orange;
+            background-color:orange;
         }
 
         // Labtop
         @media screen and (min-width:768px) and (max-width:1439px){
-            // background-color:yellow
+            background-color:yellow
         }
 
         // Desktop
         @media screen and (min-width:1440px){
-            // background-color:red;
+            background-color:red;
         }
     }
 `;
