@@ -1,8 +1,9 @@
 import { Component } from 'react'
-// import { StyledHeader, BoxHeaderContent, BoxHeaderContent2 } from './styles';
-import { StyledHeader, BoxHeaderContent2 } from './styles';
+import { StyledHeader,  StyledBoxHeaderContent } from './styles';
 import Logo from '../../components/Logo/Logo'
 import { dataHeaderContent } from '../../apis/dataContentApis';
+import Image from '../../components/Img/Image';
+import bgMobilePng from '../../assets/bg-main-mobile.png';
 
 export default class Header extends Component {
 
@@ -11,14 +12,11 @@ export default class Header extends Component {
         return (
             <StyledHeader>
                 <Logo label="equilizer" />
-                {/* <BoxHeaderContent>
+                <StyledBoxHeaderContent>
                     <span>{title}</span>
                     <span>{content}</span>
-                </BoxHeaderContent> */}
-                <BoxHeaderContent2>
-                    <span>{title}</span>
-                    <span>{content}</span>
-                </BoxHeaderContent2>
+                </StyledBoxHeaderContent>
+                <Image urlImg={bgMobilePng} />
             </StyledHeader>
         )
     }
