@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle<{
         // Tablet
         @media screen and (min-width:375px) and (max-width:767px){
             background-color:orange;
-            padding: 5%;
+            padding: 2% 5%;
         }
 
         // Labtop
