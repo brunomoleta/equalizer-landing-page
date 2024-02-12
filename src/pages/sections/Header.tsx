@@ -1,5 +1,6 @@
 import { Component } from 'react'
-import { StyledHeader, BoxHeaderContent, BoxHeaderContent2 } from './styles';
+// import { StyledHeader, BoxHeaderContent, BoxHeaderContent2 } from './styles';
+import { StyledHeader, BoxHeaderContent2 } from './styles';
 import Logo from '../../components/Logo/Logo'
 import { dataHeaderContent } from '../../apis/dataContentApis';
 
