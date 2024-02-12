@@ -12,24 +12,23 @@ export const StyledLandingPage = styled.section<{
 
   // Mobile screen size
   @media screen and (max-width: 767px){
-    background-color:red;
+    // background-color:red;
   }
 
   // Teblet screen size
   @media screen and (min-width:768px) and (max-width:1023px){
     
-    background-color:green;
+    // background-color:green;
   } 
 
   // Labtop screen size
   @media screen and (min-width:1024px) and (max-width:1439px){
-    background-color:blue;
+    // background-color:blue;
   }
 
   // Desktop screen size
   @media screen and (min-width:1440px){
-    background-color:yellow;
-    
+    // background-color:yellow;
   }
 
 
