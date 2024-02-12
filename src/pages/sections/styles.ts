@@ -85,7 +85,7 @@ export const BoxHeaderContent2 = styled.div`
   }
 
   //Mobile screen
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 347px) {
     :nth-child(1) {
       font-weight: 700;
       font-size: 40px;
@@ -101,7 +101,7 @@ export const BoxHeaderContent2 = styled.div`
   }
 
   //Tablet screen
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 375px) and (max-width: 767px) {
     :nth-child(1) {
       font-weight: 700;
       font-size: 64px;
@@ -117,7 +117,7 @@ export const BoxHeaderContent2 = styled.div`
   }
 
   //Laptop screen
-  @media screen and(min-width:1024px) and (max-width: 1439px) {
+  @media screen and (min-width:768px) and (max-width:1439px){ 
     :nth-child(1) {
       color:green;
       font-weight: 700;
@@ -140,7 +140,6 @@ export const BoxHeaderContent2 = styled.div`
       font-size: 88px;
       line-height: 88px;
       letter-spacing: -1px;
-
     }
 
     :nth-child(2) {
