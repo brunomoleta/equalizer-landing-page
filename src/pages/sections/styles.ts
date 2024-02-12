@@ -56,9 +56,11 @@ export const BoxHeaderContent = styled.div`
     letter-spacing: -0.727273px;
     margin-left:25px;
     
-    * {
-      margin: 10px 0px;
-    }
+  }
+
+  // labtop screen size
+  @media screen and (min-width: 1440px){
+    background-color:Red;
   }
 `;
 
