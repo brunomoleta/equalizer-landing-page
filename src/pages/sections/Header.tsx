@@ -16,7 +16,7 @@ export default class Header extends Component {
                     <span>{title}</span>
                     <span>{content}</span>
                 </StyledBoxHeaderContent>
-                <Image urlImg={bgMobilePng} />
+                {/* <Image urlImg={bgMobilePng} /> */}
             </StyledHeader>
         )
     }

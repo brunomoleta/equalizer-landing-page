@@ -35,7 +35,7 @@ export const StyledBoxHeaderContent = styled.div`
 
   //Tablet screen
   @media screen and (min-width: 375px) and (max-width: 767px) {
-    width:80%;
+    width: 80%;
     :nth-child(1) {
       font-weight: 700;
       font-size: 64px;
@@ -51,10 +51,10 @@ export const StyledBoxHeaderContent = styled.div`
   }
 
   //Laptop screen
-  @media screen and (min-width:768px) and (max-width:1439px){ 
-      height:auto;
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    height: auto;
     :nth-child(1) {
-      color:green;
+      color: green;
       font-weight: 700;
       font-size: 88px;
       line-height: 88px;
@@ -81,8 +81,8 @@ export const StyledBoxHeaderContent = styled.div`
       font-weight: 400;
       font-size: 20px;
       line-height: 34px;
+    }
   }
-}
 `;
 
 export const StyledFooter = styled.section`
