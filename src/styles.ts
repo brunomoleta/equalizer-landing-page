@@ -13,19 +13,19 @@ const GlobalStyles = createGlobalStyle<{
 
     body {
         // Mobile 
-        @media screen and (max-width:374px){
-            // background-color:green;
+        @media screen and (max-width:767px){
+            background-color:green;
             padding: 14% 5%;
         }
 
         // Tablet
-        @media screen and (min-width:375px) and (max-width:767px){
+        @media screen and (min-width:768px) and (max-width:1023px){
             background-color:orange;
             padding: 5% 5%;
         }
 
         // Labtop
-        @media screen and (min-width:768px) and (max-width:1439px){
+        @media screen and (min-width:1024px) and (max-width:1439px){
             background-color:yellow;
             padding: 5% 5%;
         }
