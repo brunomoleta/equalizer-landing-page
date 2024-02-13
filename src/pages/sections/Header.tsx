@@ -10,6 +10,8 @@ interface windowWidthState {
 export default class Header extends Component<windowWidthState> {
   render() {
     const { title, content } = dataHeaderContent;
+    const {windowWidth} = this.props;
+    const shoudRenderVector = windowWidth >= 768;
     return (
       <StyledHeader>
         <Logo label="equilizer" />
@@ -17,8 +19,7 @@ export default class Header extends Component<windowWidthState> {
           <span>{title}</span>
           <span>{content}</span>
         </StyledBoxHeaderContent>
-        <VectorTablet />        
-
+        {shoudRenderVector && <VectorTablet />}
       </StyledHeader>
     );
   }
