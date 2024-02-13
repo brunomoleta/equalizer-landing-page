@@ -10,11 +10,13 @@ import bgMobile from "../assets/bg-main-mobile.png";
 export default class LandingPage extends Component {
   state = {
     windowWidthState: window.innerWidth,
+    windowHeightState: window.innerHeight, 
   };
 
   updateWindowWidth = () => {
     this.setState({
       windowWidthState: window.innerWidth,
+      windowHeightState: window.innerHeight, 
     });
   };
 
@@ -27,11 +29,12 @@ export default class LandingPage extends Component {
   }
 
   render() {
-    const {windowWidthState} = this.state;
+    const {windowWidthState,windowHeightState} = this.state;
     return (
       <StyledLandingPage theme={theme} $font={font}>
-        <Header windowWidth={windowWidthState} />
-        <h1>{windowWidthState}</h1>
+        <Header windowWidth={windowWidthState} windowHeight={windowHeightState} />
+        <h1>width screen now : {windowWidthState}</h1>
+        <h1>height screen now: {windowHeightState}</h1>
         <Image urlImg={bgMobile} />
         <Card />
         <Footer />

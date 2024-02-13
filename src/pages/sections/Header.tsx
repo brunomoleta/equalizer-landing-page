@@ -6,6 +6,7 @@ import VectorTablet from "../../components/Vectors/VectorTablet";
 
 interface windowWidthState {
   windowWidth: number;
+  windowHeight: number;
 }
 export default class Header extends Component<windowWidthState> {
   render() {
