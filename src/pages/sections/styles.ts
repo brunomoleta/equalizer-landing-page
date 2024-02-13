@@ -18,7 +18,7 @@ export const StyledBoxHeaderContent = styled.div`
   }
 
   //Mobile screen
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 767px) {
     :nth-child(1) {
       font-weight: 700;
       font-size: 40px;
@@ -34,7 +34,7 @@ export const StyledBoxHeaderContent = styled.div`
   }
 
   //Tablet screen
-  @media screen and (min-width: 375px) and (max-width: 767px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     width: 80%;
     :nth-child(1) {
       font-weight: 700;
@@ -51,7 +51,7 @@ export const StyledBoxHeaderContent = styled.div`
   }
 
   //Laptop screen
-  @media screen and (min-width: 768px) and (max-width: 1439px) {
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
     height: auto;
     :nth-child(1) {
       color: green;
