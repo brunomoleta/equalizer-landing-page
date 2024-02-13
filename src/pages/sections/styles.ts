@@ -82,6 +82,7 @@ export const StyledBoxHeaderContent = styled.div`
       font-size: 20px;
       line-height: 34px;
   }
+}
 `;
 
 export const StyledFooter = styled.section`
