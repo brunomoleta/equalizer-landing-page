@@ -30,7 +30,7 @@ export default class LandingPage extends Component {
     const {windowWidthState} = this.state;
     return (
       <StyledLandingPage theme={theme} $font={font}>
-        <Header />
+        <Header windowWidth={windowWidthState} />
         <h1>{windowWidthState}</h1>
         <Image urlImg={bgMobile} />
         <Card />
