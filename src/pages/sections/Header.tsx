@@ -2,8 +2,8 @@ import { Component } from 'react'
 import { StyledHeader,  StyledBoxHeaderContent } from './styles';
 import Logo from '../../components/Logo/Logo'
 import { dataHeaderContent } from '../../apis/dataContentApis';
-import Image from '../../components/Img/Image';
-import bgMobilePng from '../../assets/bg-main-mobile.png';
+// import Image from '../../components/Img/Image';
+// import bgMobilePng from '../../assets/bg-main-mobile.png';
 
 export default class Header extends Component {
 
