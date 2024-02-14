@@ -1,9 +1,10 @@
 import { Component, ReactNode } from "react";
+import { StyledVector } from "./styles";
 
 export default class VectorTablet extends Component {
   render(): ReactNode {
     return (
-      <div>
+      <StyledVector>
         <svg
           width="231"
           height="368"
@@ -69,7 +70,7 @@ export default class VectorTablet extends Component {
             strokeWidth="2"
           />
         </svg>
-      </div>
+      </StyledVector>
     );
   }
 }
