@@ -50,7 +50,7 @@ class LandingPage extends Component {
       windowWidth <= 767
         ? "Mobile"
         : windowWidth <= 1023
-        ? "Tablap"
+        ? "Tablet"
         : "Desktop";
 
     // Provide a default background image if backgroundImage is undefined
@@ -58,11 +58,11 @@ class LandingPage extends Component {
 
     return (
       <StyledLandingPage theme={theme} $font={font}>
+        <Image urlImg={backgroundImage || defaultBackgroundImage} />
         <Header windowWidth={windowWidth} windowHeight={windowHeight} />
         <h1>Now device for : {screenNow}</h1>
         <h1>Width of screen: {windowWidth}</h1>
         <h1>Height of screen: {windowHeight}</h1>
-        <Image urlImg={backgroundImage || defaultBackgroundImage} />
         <Card />
         <Footer />
       </StyledLandingPage>

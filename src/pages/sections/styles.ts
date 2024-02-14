@@ -15,6 +15,7 @@ export const StyledBoxHeaderContent = styled.div`
   padding:5% 3%;
   * {
     margin: 5% 0;
+    z-index:500;
   }
 
   //Mobile screen

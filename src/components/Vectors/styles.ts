@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const StyledVector = styled.div`
     // Set the position of the component to absolute
     position: absolute;
+    z-index:500;
 
     // Media query for mobile screens (max-width: 767px)
     @media screen and (max-width: 767px) {

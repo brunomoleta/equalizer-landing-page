@@ -9,6 +9,7 @@ export const StyledLandingPage = styled.section<{
   height: 1954px;
   position:relative;
   overflow:hidden;
+  z-index:500;
 
   // Mobile screen size
   @media screen and (max-width: 767px) {
