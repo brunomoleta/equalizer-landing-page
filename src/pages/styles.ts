@@ -15,7 +15,8 @@ export const StyledLandingPage = styled.section<{
     
     // background-color:red;
     :nth-child(2) {
-      
+
+
     }
   }
 

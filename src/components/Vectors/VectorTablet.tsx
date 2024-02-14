@@ -57,7 +57,7 @@ export default class VectorTablet extends Component {
             height="131.333"
             rx="65.6667"
             stroke="#191826"
-            stroke-width="2"
+            strokeWidth="2"
           />
           <rect
             x="134.333"
@@ -66,7 +66,7 @@ export default class VectorTablet extends Component {
             height="64.6667"
             rx="32.3333"
             stroke="#191826"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </svg>
       </div>

@@ -7,6 +7,7 @@ import Header from "./sections/Header";
 import Image from "../components/Img/Image";
 import bgMobile from "../assets/bg-main-mobile.png";
 
+
 export default class LandingPage extends Component {
   state = {
     windowWidthState: window.innerWidth,

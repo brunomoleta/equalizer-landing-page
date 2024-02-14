@@ -13,7 +13,6 @@ export const StyledBoxHeaderContent = styled.div`
   display: flex;
   flex-direction: column;
   padding:5% 3%;
-
   * {
     margin: 5% 0;
   }
@@ -31,6 +30,7 @@ export const StyledBoxHeaderContent = styled.div`
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;
+      lh
     }
   }
 

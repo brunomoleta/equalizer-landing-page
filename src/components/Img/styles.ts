@@ -7,8 +7,6 @@ export const StyledImage = styled.img`
   @media screen and (max-width: 767px) {
       top:-250px;
       left:50px;
-    
-
   }
 
   /* Tablet screen  */
@@ -17,6 +15,7 @@ export const StyledImage = styled.img`
 
   /* Laptop screen */
   @media screen and (min-wdith: 1024px) and (max-width: 1439px) {
+  
   }
 
   /* Desktop screen */
