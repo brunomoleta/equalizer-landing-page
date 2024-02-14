@@ -13,6 +13,7 @@ export default class Header extends Component<windowWidthState> {
     const { title, content } = dataHeaderContent;
     const {windowWidth} = this.props;
     const shoudRenderVector = windowWidth >= 768;
+
     return (
       <StyledHeader>
         <Logo label="equilizer" />

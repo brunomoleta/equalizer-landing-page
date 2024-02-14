@@ -1,4 +1,4 @@
-import  { Component } from "react";
+import { Component } from "react";
 import { StyledLandingPage } from "./styles";
 import { theme, font } from "../utilities";
 import Card from "./sections/Card";
@@ -46,12 +46,20 @@ class LandingPage extends Component {
         ? bgTablet
         : bgDesktop;
 
+    let screenNow =
+      windowWidth <= 767
+        ? "Mobile"
+        : windowWidth <= 1023
+        ? "Tablap"
+        : "Desktop";
+
     // Provide a default background image if backgroundImage is undefined
     const defaultBackgroundImage = bgMobile; // Change this to your preferred default
 
     return (
       <StyledLandingPage theme={theme} $font={font}>
         <Header windowWidth={windowWidth} windowHeight={windowHeight} />
+        <h1>Now device for : {screenNow}</h1>
         <h1>Width of screen: {windowWidth}</h1>
         <h1>Height of screen: {windowHeight}</h1>
         <Image urlImg={backgroundImage || defaultBackgroundImage} />
