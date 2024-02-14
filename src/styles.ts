@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle<{
 
         // Tablet
         @media screen and (min-width:768px) and (max-width:1023px){
-            background-color:orange;
+            // background-color:orange;
             /* padding: 3% 5%; */
         }
 
