@@ -21,5 +21,4 @@ export const StyledVector = styled.div`
     @media screen and (min-width:1440px){
         ///
     }
-
 `;

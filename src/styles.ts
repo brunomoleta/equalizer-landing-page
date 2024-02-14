@@ -26,13 +26,13 @@ const GlobalStyles = createGlobalStyle<{
 
         // Labtop
         @media screen and (min-width:1024px) and (max-width:1439px){
-            background-color:yellow;
+            // background-color:yellow;
             /* padding: 5% 5%; */
         }
 
         // Desktop
         @media screen and (min-width:1440px){
-            background-color:red;
+            // background-color:red;
             /* padding:5% 5%; */
         }
     }

@@ -1,45 +1,65 @@
-import { Component } from "react";
-import { theme, font } from "../utilities";
+import  { Component } from "react";
 import { StyledLandingPage } from "./styles";
+import { theme, font } from "../utilities";
 import Card from "./sections/Card";
 import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import Image from "../components/Img/Image";
 import bgMobile from "../assets/bg-main-mobile.png";
+import bgTablet from "../assets/bg-main-tablet.png";
+import bgDesktop from "../assets/bg-main-desktop.png";
 
-
-export default class LandingPage extends Component {
+class LandingPage extends Component {
+  // Define initial state to hold window dimensions
   state = {
-    windowWidthState: window.innerWidth,
-    windowHeightState: window.innerHeight, 
+    windowWidth: window.innerWidth,
+    windowHeight: window.innerHeight,
   };
 
-  updateWindowWidth = () => {
+  // Function to update window dimensions in state
+  updateWindowDimensions = () => {
     this.setState({
-      windowWidthState: window.innerWidth,
-      windowHeightState: window.innerHeight, 
+      windowWidth: window.innerWidth,
+      windowHeight: window.innerHeight,
     });
   };
 
-  componentDidMount(): void {
-    window.addEventListener("resize", this.updateWindowWidth);
+  // Add event listener to update window dimensions when resized
+  componentDidMount() {
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
-  componentWillUnmount(): void {
-    window.removeEventListener("resize", this.updateWindowWidth);
+  // Remove event listener when component is unmounted
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
   }
 
   render() {
-    const {windowWidthState,windowHeightState} = this.state;
+    // Destructure window width and height from state
+    const { windowWidth, windowHeight } = this.state;
+
+    // Determine background image based on window width
+    let backgroundImage =
+      windowWidth <= 767
+        ? bgMobile
+        : windowWidth <= 1023
+        ? bgTablet
+        : bgDesktop;
+
+    // Provide a default background image if backgroundImage is undefined
+    const defaultBackgroundImage = bgMobile; // Change this to your preferred default
+
     return (
       <StyledLandingPage theme={theme} $font={font}>
-        <Header windowWidth={windowWidthState} windowHeight={windowHeightState} />
-        <h1>width screen now : {windowWidthState}</h1>
-        <h1>height screen now: {windowHeightState}</h1>
-        <Image urlImg={bgMobile} />
+        <Header windowWidth={windowWidth} windowHeight={windowHeight} />
+        <h1>Width of screen: {windowWidth}</h1>
+        <h1>Height of screen: {windowHeight}</h1>
+        <Image urlImg={backgroundImage || defaultBackgroundImage} />
         <Card />
         <Footer />
       </StyledLandingPage>
     );
   }
 }
+
+export default LandingPage;
