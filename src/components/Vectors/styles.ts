@@ -25,5 +25,7 @@ export const StyledVector = styled.div`
 
     // Media query for desktop screens (min-width: 1440px)
     @media screen and (min-width: 1440px) {
+        top:0px;
+        right:0px;
     }
 `;

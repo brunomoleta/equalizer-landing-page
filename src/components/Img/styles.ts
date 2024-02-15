@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledImage = styled.img`
   position: absolute;
-  z-index:2;
+  z-index:1;
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
@@ -22,5 +22,7 @@ export const StyledImage = styled.img`
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
+    top:-200px;
+    left:-300px;
   }
 `;

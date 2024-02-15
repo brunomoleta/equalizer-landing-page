@@ -31,7 +31,6 @@ export const StyledBoxHeaderContent = styled.div`
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;
-      lh
     }
   }
 
@@ -72,7 +71,9 @@ export const StyledBoxHeaderContent = styled.div`
 
   //Desktop screen
   @media screen and (min-width: 1440px) {
+    padding-left:10%;
     :nth-child(1) {
+      width:80%;
       font-weight: 700;
       font-size: 88px;
       line-height: 88px;
@@ -80,6 +81,7 @@ export const StyledBoxHeaderContent = styled.div`
     }
 
     :nth-child(2) {
+      width:80%;
       font-weight: 400;
       font-size: 20px;
       line-height: 34px;
