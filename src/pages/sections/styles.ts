@@ -55,7 +55,6 @@ export const StyledBoxHeaderContent = styled.div`
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     height: auto;
     :nth-child(1) {
-      color: green;
       font-weight: 700;
       font-size: 88px;
       line-height: 88px;
@@ -72,6 +71,7 @@ export const StyledBoxHeaderContent = styled.div`
   //Desktop screen
   @media screen and (min-width: 1440px) {
     padding-left:10%;
+    
     :nth-child(1) {
       width:80%;
       font-weight: 700;

@@ -51,6 +51,8 @@ class LandingPage extends Component {
         ? "Mobile"
         : windowWidth <= 1023
         ? "Tablet"
+        : windowWidth <= 1439
+        ? "Laptop"
         : "Desktop";
 
     // Provide a default background image if backgroundImage is undefined
