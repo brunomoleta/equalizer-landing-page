@@ -83,7 +83,7 @@ export const StyledBoxHeaderContent = styled.div`
     }
 
     :nth-child(2) {
-      width:80%;
+      width:70%;
       font-weight: 400;
       font-size: 20px;
       line-height: 34px;
@@ -114,6 +114,7 @@ export const StyledFooter = styled.section`
   }
   //
 `;
+
 export const StyledCard = styled.section`
   //
   // Mobile screen size
