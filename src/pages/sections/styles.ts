@@ -14,7 +14,7 @@ export const StyledBoxHeaderContent = styled.div`
   flex-direction: column;
   padding:5% 3%;
   * {
-    margin: 5% 0;
+    margin: 2% 0%;
     z-index:500;
   }
 
