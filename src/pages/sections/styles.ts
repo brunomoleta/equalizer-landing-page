@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.section`
   width: 100%;
   height: auto;
-  margin-bottom:30%;
+  margin-bottom:20%;
 `;
 
 // BoxHeaderContent2
@@ -117,7 +117,7 @@ export const StyledFooter = styled.section`
 `;
 
 export const StyledCard = styled.section`
-    margin-top:80%;
+    margin-top:40%;
 
   // Mobile screen size
   @media screen and (max-width: 767px) {
