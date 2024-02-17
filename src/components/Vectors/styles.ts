@@ -29,3 +29,7 @@ export const StyledVector = styled.div`
         right:0px;
     }
 `;
+
+export const StyledVectorCard = styled.div`
+//
+`;
