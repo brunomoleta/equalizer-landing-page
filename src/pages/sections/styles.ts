@@ -2,6 +2,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.section`
   width: 100%;
   height: auto;
+  margin-bottom:30%;
 `;
 
 // BoxHeaderContent2
@@ -116,11 +117,13 @@ export const StyledFooter = styled.section`
 `;
 
 export const StyledCard = styled.section`
-  //
+    margin-top:80%;
+
   // Mobile screen size
   @media screen and (max-width: 767px) {
-    // background-color:red;
-  }
+
+    
+    }
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {

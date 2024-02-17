@@ -1,30 +1,30 @@
 import styled from "styled-components";
-
-export const StyledImage = styled.img`
-  position: absolute;
-  z-index: 1;
+export const StyledSubCard = styled.div``;
+export const StyledMainCard = styled.div`
+  background-color: #191826;
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
-    top: -250px;
-    left: 50px;
+    width: 375px;
+    height: 600px;
+    :nth-child(2) {
+        width:70%;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-73%);
+    }
   }
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    top: -220px;
-    left: -400px;
   }
 
   /* Laptop screen */
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    top: -210px;
-    left: -400px;
   }
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
-    top: -200px;
-    left: -300px;
   }
 `;

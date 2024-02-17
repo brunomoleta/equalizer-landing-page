@@ -31,5 +31,7 @@ export const StyledVector = styled.div`
 `;
 
 export const StyledVectorCard = styled.div`
+    display:flex;
+    justify-content:center;
 //
 `;

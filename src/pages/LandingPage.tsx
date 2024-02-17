@@ -62,11 +62,11 @@ class LandingPage extends Component {
       <StyledLandingPage theme={theme} $font={font}>
         <Image urlImg={backgroundImage || defaultBackgroundImage} />
         <Header windowWidth={windowWidth} windowHeight={windowHeight} />
+        <Card />
+        <Footer />
         <h1>Now device for : {screenNow}</h1>
         <h1>Width of screen: {windowWidth}</h1>
         <h1>Height of screen: {windowHeight}</h1>
-        <Card />
-        <Footer />
       </StyledLandingPage>
     );
   }

@@ -1,13 +1,13 @@
-import { Component,ReactNode } from 'react'
-import VectorCard from '../../components/Vectors/VectorCard'
-import {StyledCard} from './styles';
+import { Component, ReactNode } from "react";
+import { StyledCard } from "./styles";
+import MainCard from "../../components/Cards/MainCard";
 
 export default class Card extends Component {
-  render() :ReactNode{
+  render(): ReactNode {
     return (
       <StyledCard>
-        <VectorCard />
+        <MainCard />
       </StyledCard>
-    )
+    );
   }
 }
