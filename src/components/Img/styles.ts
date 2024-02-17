@@ -18,7 +18,6 @@ export const StyledImage = styled.img`
 
   /* Laptop screen */
   @media screen and (min-width:1024px) and (max-width:1439px){
-    border:1px solid red;
     top:-220px;
     left:-400px;
   }
