@@ -15,7 +15,8 @@ export const StyledLogo = styled.div`
   }
 
   /* Laptop screen */
-  @media screen and (min-wdith: 1024px) and (max-width: 1439px) {
+  @media screen and (min-width:1024px) and (max-width:1439px){
+    padding-left:6%;
   }
 
   /* Desktop screen */
