@@ -53,7 +53,7 @@ export const StyledBoxHeaderContent = styled.div`
 
   //Laptop screen
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    padding:5% 7%;
+    padding:5% 5%;
     height: auto;
     :nth-child(1) {
       width:80%;
