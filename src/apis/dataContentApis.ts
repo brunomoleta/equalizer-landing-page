@@ -33,6 +33,6 @@ export const dataSubCard: DATASUBCARD = {
   title: "Premium EQ",
   content:
     "Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!",
-  price: "42$",
+  price: "4$",
   unit: "month",
 };

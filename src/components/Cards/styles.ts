@@ -1,14 +1,15 @@
 import styled from "styled-components";
 export const StyledSubCard = styled.div`
-  width: 375px;
-  height: 546px;
   margin: 0 auto;
   background-color: #fa7453;
   font-family: "IBM Plex Sans";
   font-style: normal;
+  padding: 5% 5%;
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
+    width: 375px;
+    height: 546px;
     position: relative;
     top: -210px;
     color: #fcfaf9;
@@ -22,6 +23,13 @@ export const StyledSubCard = styled.div`
       font-weight: 400;
       font-size: 18px;
       line-height: 28px;
+    }
+    :nth-child(3) {
+      margin: 5% 0;
+    }
+
+    :nth-child(4){
+    margin:5% 0;
     }
   }
 
