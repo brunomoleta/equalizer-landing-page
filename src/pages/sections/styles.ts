@@ -21,6 +21,7 @@ export const StyledHeader = styled.section`
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
+    margin-bottom:10%;
   }
   
 `;
@@ -156,5 +157,6 @@ export const StyledCard = styled.section`
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
+    margin-top:0;
   }
 `;

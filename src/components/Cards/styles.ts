@@ -8,7 +8,7 @@ export const StyledSubCard = styled.div`
   border-radius: 20px;
   color: #fcfaf9;
   * {
-    margin: 6% 0;
+    margin: 5% 0;
   }
   /* mobile screen */
   @media screen and (max-width: 767px) {
@@ -42,6 +42,11 @@ export const StyledSubCard = styled.div`
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
+    width:33%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(5%,-5%);
   }
 `;
 export const StyledMainCard = styled.div`
@@ -91,6 +96,16 @@ export const StyledMainCard = styled.div`
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
+    max-height:1000px;
+    margin: 0 auto;
+    height:600px;
+    width:83%;
+    :nth-child(2){
+      width:20%;
+      top:50%;
+      left:50%;
+      transform:translate(-165%,-45%);
+    }
   }
 `;
 export const Title = styled.span`
