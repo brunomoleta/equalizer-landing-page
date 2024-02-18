@@ -5,7 +5,7 @@ export const StyledSubCard = styled.div`
   font-family: "IBM Plex Sans";
   font-style: normal;
   padding: 5% 5%;
-
+  border-radius: 20px;
   /* mobile screen */
   @media screen and (max-width: 767px) {
     width: 375px;
@@ -28,13 +28,20 @@ export const StyledSubCard = styled.div`
       margin: 5% 0;
     }
 
-    :nth-child(4){
-    margin:5% 0;
+    :nth-child(4) {
+      margin: 5% 0;
     }
   }
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width:399px;
+    height:546px;
+    border-radius:20px;
+    position:relative;
+    top:-400px; 
+    left:60px;
+    z-index:800;
   }
 
   /* Laptop screen */
@@ -47,6 +54,7 @@ export const StyledSubCard = styled.div`
 `;
 export const StyledMainCard = styled.div`
   background-color: #191826;
+  border-radius: 20px;
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
@@ -63,6 +71,16 @@ export const StyledMainCard = styled.div`
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 696px;
+    height: 600px;
+    margin: 0 auto;
+    :nth-child(2) {
+      width: 35%;
+      position: absolute;
+      top: 50%;
+      left: 43%;
+      transform: translate(-95%, -45%);
+    }
   }
 
   /* Laptop screen */

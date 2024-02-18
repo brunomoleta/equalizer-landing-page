@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.section`
   width: 100%;
   height: auto;
-  margin-bottom:20%;
+  margin-bottom: 20%;
 `;
 
 // BoxHeaderContent2
@@ -13,10 +13,10 @@ export const StyledBoxHeaderContent = styled.div`
   color: #191826;
   display: flex;
   flex-direction: column;
-  padding:5% 3%;
+  padding: 5% 3%;
   * {
     margin: 2% 0%;
-    z-index:500;
+    z-index: 500;
   }
 
   //Mobile screen
@@ -54,10 +54,10 @@ export const StyledBoxHeaderContent = styled.div`
 
   //Laptop screen
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    padding:5% 5%;
+    padding: 5% 5%;
     height: auto;
     :nth-child(1) {
-      width:80%;
+      width: 80%;
       font-weight: 700;
       font-size: 88px;
       line-height: 88px;
@@ -65,7 +65,7 @@ export const StyledBoxHeaderContent = styled.div`
     }
 
     :nth-child(2) {
-      width:80%;
+      width: 80%;
       font-weight: 400;
       font-size: 20px;
       line-height: 34px;
@@ -74,9 +74,9 @@ export const StyledBoxHeaderContent = styled.div`
 
   //Desktop screen
   @media screen and (min-width: 1440px) {
-    padding-left:10%;
+    padding-left: 10%;
     :nth-child(1) {
-      width:80%;
+      width: 80%;
       font-weight: 700;
       font-size: 88px;
       line-height: 88px;
@@ -84,7 +84,7 @@ export const StyledBoxHeaderContent = styled.div`
     }
 
     :nth-child(2) {
-      width:70%;
+      width: 70%;
       font-weight: 400;
       font-size: 20px;
       line-height: 34px;
@@ -95,7 +95,6 @@ export const StyledBoxHeaderContent = styled.div`
 export const StyledFooter = styled.section`
   // Mobile screen size
   @media screen and (max-width: 767px) {
-    
     // background-color:red;
   }
 
@@ -117,13 +116,11 @@ export const StyledFooter = styled.section`
 `;
 
 export const StyledCard = styled.section`
-    margin-top:40%;
+  margin-top: 40%;
 
   // Mobile screen size
   @media screen and (max-width: 767px) {
-
-    
-    }
+  }
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
