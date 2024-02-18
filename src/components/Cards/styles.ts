@@ -6,6 +6,9 @@ export const StyledSubCard = styled.div`
   font-style: normal;
   padding: 5% 5%;
   border-radius: 20px;
+  * {
+    margin: 6% 0;
+  }
   /* mobile screen */
   @media screen and (max-width: 767px) {
     width: 375px;
@@ -13,35 +16,17 @@ export const StyledSubCard = styled.div`
     position: relative;
     top: -210px;
     color: #fcfaf9;
-    :nth-child(1) {
-      display: block;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: normal;
-    }
-    :nth-child(2) {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-    }
-    :nth-child(3) {
-      margin: 5% 0;
-    }
-
-    :nth-child(4) {
-      margin: 5% 0;
-    }
   }
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    width:399px;
-    height:546px;
-    border-radius:20px;
-    position:relative;
-    top:-400px; 
-    left:60px;
-    z-index:800;
+    width: 399px;
+    height: 546px;
+    border-radius: 20px;
+    position: relative;
+    top: -400px;
+    left: 60px;
+    z-index: 800;
   }
 
   /* Laptop screen */
@@ -89,5 +74,64 @@ export const StyledMainCard = styled.div`
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
+  }
+`;
+export const Title = styled.span`
+  /* mobile screen */
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  display: block;
+
+  @media screen and (max-width: 767px) {
+    //
+  }
+
+  /* Tablet screen  */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  /* Laptop screen */
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    //
+  }
+
+  /* Desktop screen */
+  @media screen and (min-width: 1440px) {
+    //
+  }
+`;
+
+export const Content = styled.span`
+  /* mobile screen */
+  color: #fcfaf9;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  @media screen and (max-width: 767px) {
+    //
+  }
+
+  /* Tablet screen  */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    //
+  }
+
+  /* Laptop screen */
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    //
+  }
+
+  /* Desktop screen */
+  @media screen and (min-width: 1440px) {
+    //
   }
 `;
