@@ -1,5 +1,6 @@
 import * as React from "react";
-import { StyledPriceLabel } from "./styles";
+import { StyledPriceLabel, Price } from "./styles";
+
 
 export interface IPriceLabelProps {
   price?: string;
@@ -11,7 +12,7 @@ export default class PriceLabel extends React.Component<IPriceLabelProps> {
     const { price, unit } = this.props;
     return (
       <StyledPriceLabel>
-          <span>{price}</span>
+          <Price>{price}</Price>
           <span> / {unit}</span>
       </StyledPriceLabel>
     );

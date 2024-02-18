@@ -10,3 +10,10 @@ export const StyledPriceLabel = styled.span`
   :nth-child(2){
   }
 `;
+
+export const Price = styled.span`
+  font-family:'IBM Plex Sans';
+  font-style:bold;
+  font-weight:700px;
+  font-size:32px;
+`
