@@ -21,8 +21,10 @@ export const StyledDownloadBtn = styled.button<BtnProps>`
     props.label === "Android" ? "#FCFAF9" : "#191826"};
   color: ${(props) => (props.label === "Android" ? "black" : "#FCFAF9")};
   border: none;
-  width: 333px;
-  height: 61px;
+  /* width: 333px;
+  height: 62px; */
+  width:99%;
+  height:62px;
   display: flex;
   align-items: center;
   justify-content: center;
