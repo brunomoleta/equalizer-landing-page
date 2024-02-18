@@ -3,6 +3,26 @@ export const StyledHeader = styled.section`
   width: 100%;
   height: auto;
   margin-bottom: 20%;
+  // Mobile screen size
+  @media screen and (max-width: 767px) {
+  }
+
+  // Teblet screen size
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    // background-color:green;
+  }
+
+  // Labtop screen size
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    // background-color:blue;
+    margin-bottom:10%;
+  }
+
+  // Desktop screen size
+  @media screen and (min-width: 1440px) {
+    // background-color:yellow;
+  }
+  
 `;
 
 // BoxHeaderContent2
@@ -130,6 +150,7 @@ export const StyledCard = styled.section`
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     // background-color:blue;
+    margin-top:0;
   }
 
   // Desktop screen size

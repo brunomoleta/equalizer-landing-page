@@ -32,6 +32,12 @@ export const StyledSubCard = styled.div`
 
   /* Laptop screen */
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    width: 399px;
+    height:auto;
+    position:absolute;  
+    top:850px;
+    left:490px;  
+    z-index:800;
   }
 
   /* Desktop screen */
@@ -71,6 +77,16 @@ export const StyledMainCard = styled.div`
 
   /* Laptop screen */
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    width: 90%;
+    /* heigth: 600px; */
+    height:520px;
+    margin: 0 auto;
+    :nth-child(2) {
+      width: 23%;
+      position: absolute;
+      top:700px;
+      left:180px;
+    }
   }
 
   /* Desktop screen */
