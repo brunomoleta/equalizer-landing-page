@@ -6,6 +6,7 @@ export const StyledSubCard = styled.div`
   font-style: normal;
   padding: 5% 5%;
   border-radius: 20px;
+  color: #fcfaf9;
   * {
     margin: 6% 0;
   }
