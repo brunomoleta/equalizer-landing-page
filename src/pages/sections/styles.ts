@@ -15,15 +15,14 @@ export const StyledHeader = styled.section`
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     // background-color:blue;
-    margin-bottom:10%;
+    margin-bottom: 10%;
   }
 
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
-    margin-bottom:10%;
+    margin-bottom: 10%;
   }
-  
 `;
 
 // BoxHeaderContent2
@@ -151,12 +150,12 @@ export const StyledCard = styled.section`
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     // background-color:blue;
-    margin-top:0;
+    margin-top: 0;
   }
 
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
-    margin-top:0;
+    margin-top: 0;
   }
 `;

@@ -36,3 +36,11 @@ export const dataSubCard: DATASUBCARD = {
   price: "4$",
   unit: "month",
 };
+
+interface IFooterContent {
+  content: string;
+}
+export const footerContent: IFooterContent = {
+  content:
+    "All rights reserved © Equalizer 2021 Have any problems? Contact us via social media or email us at equalizer@example.com",
+};
