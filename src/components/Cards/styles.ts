@@ -24,9 +24,10 @@ export const StyledSubCard = styled.div`
     width: 399px;
     height: 546px;
     border-radius: 20px;
-    position: relative;
-    top: -423px;
-    left: 60px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-30%,5%);
     z-index: 800;
   }
 
@@ -74,7 +75,7 @@ export const StyledMainCard = styled.div`
     :nth-child(2) {
       width: 35%;
       position: absolute;
-      top: 37%;
+      top: 50%;
       left: 43%;
       transform: translate(-95%, -45%);
     }
