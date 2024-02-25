@@ -7,6 +7,7 @@ export const StyledFooter = styled.footer`
 `;
 
 export const StyledContentFooter = styled.span`
+  display: inline-block;
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 400;
@@ -14,5 +15,5 @@ export const StyledContentFooter = styled.span`
   line-height: 26px;
   color: #191826;
   width: 85%;
-  padding:5% 2%;
+  padding: 5% 2%;
 `;
