@@ -136,8 +136,7 @@ export const StyledFooter = styled.section`
 `;
 
 export const StyledCard = styled.section`
-  margin-top: 40%;
-
+  margin-top:100px;
   // Mobile screen size
   @media screen and (max-width: 767px) {
   }
