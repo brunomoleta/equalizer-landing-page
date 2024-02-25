@@ -6,7 +6,7 @@ export const StyledLandingPage = styled.section<{
   $font: typeof font;
 }>`
   width: 100%;
-  height: 1954px;
+  height:auto;
   position:relative;
   overflow:hidden;
 
