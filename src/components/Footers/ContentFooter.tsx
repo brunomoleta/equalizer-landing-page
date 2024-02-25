@@ -1,4 +1,5 @@
 import { Component, ReactNode } from "react";
+import { StyledContentFooter } from "./styles";
 
 interface IContentFooter {
   content: string;
@@ -6,7 +7,7 @@ interface IContentFooter {
 class ContentFooter extends Component<IContentFooter> {
   render(): ReactNode {
     const { content } = this.props;
-    return <span>{content}</span>;
+    return <StyledContentFooter>{content}</StyledContentFooter>;
   }
 }
 
