@@ -6,5 +6,4 @@ export const ContainerIcon = styled.div`
   display:flex;
   justify-content:space-around;
   height: auto;
-  border:1px solid red;
 `;
