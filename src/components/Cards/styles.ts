@@ -78,15 +78,8 @@ export const StyledMainCard = styled.div`
   /* Laptop screen */
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     width: 90%;
-    /* heigth: 600px; */
     height: 520px;
     margin: 0 auto;
-    :nth-child(2) {
-      width: 23%;
-      position: absolute;
-      top: 35%;
-      left: 15%;
-    }
   }
 
   /* Desktop screen */
