@@ -14,7 +14,8 @@ export const StyledSubCard = styled.div`
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
-    width: 375px;
+    /* width: 375px; */
+    width:100%;
     height: 546px;
     position: absolute;
     top:900px;
@@ -61,7 +62,8 @@ export const StyledMainCard = styled.div`
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
-    width: 375px;
+    /* width: 375px; */
+    width:100%;
     height: 600px;
   }
 
