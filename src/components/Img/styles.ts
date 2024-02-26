@@ -25,9 +25,15 @@ export const StyledImage = styled.img`
   }
 
   /* Desktop screen */
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1440px) and (max-width:1919px){
     width:22%;
     top:700px;
-    left:19%;
+    left:18%;
+  }
+
+  @media screen and (min-width:1920px){
+    width:17%;
+    top:830px;
+    left:18%;
   }
 `;

@@ -63,4 +63,9 @@ export const StyledDownloadBtn = styled.button<BtnProps>`
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
   }
+
+  @media screen and (min-width:1920px){
+    max-width:500px;
+    width:100%;
+  }
 `;

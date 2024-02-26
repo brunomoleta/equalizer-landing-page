@@ -49,6 +49,11 @@ export const StyledSubCard = styled.div`
     top:990px;
     right:18%;
   }
+  @media screen and (min-width:1920px){
+    width:28%;
+    top:1100px;
+    padding:3% 3%;
+  }
 `;
 export const StyledMainCard = styled.div`
   background-color: #191826;
@@ -58,13 +63,6 @@ export const StyledMainCard = styled.div`
   @media screen and (max-width: 767px) {
     width: 375px;
     height: 600px;
-    :nth-child(2) {
-      width: 54%;
-      position: absolute;
-      margin: 0 auto;
-      top: 420px;
-      left: 83px;
-    }
   }
 
   /* Tablet screen  */
