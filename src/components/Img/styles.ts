@@ -12,8 +12,9 @@ export const StyledImage = styled.img`
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    top: -220px;
-    left: -400px;
+    width:35%;
+    top:600px;
+    left:10%;
   }
 
   /* Laptop screen */

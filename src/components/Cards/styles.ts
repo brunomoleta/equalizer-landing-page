@@ -27,9 +27,8 @@ export const StyledSubCard = styled.div`
     height: 546px;
     border-radius: 20px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-30%, 5%);
+    top:850px;
+    left:280px;
     z-index: 800;
   }
 
@@ -71,16 +70,9 @@ export const StyledMainCard = styled.div`
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    width: 696px;
+    width: 696pxn;
     height: 600px;
     margin: 0 auto;
-    :nth-child(2) {
-      width: 35%;
-      position: absolute;
-      top: 50%;
-      left: 43%;
-      transform: translate(-95%, -45%);
-    }
   }
 
   /* Laptop screen */
