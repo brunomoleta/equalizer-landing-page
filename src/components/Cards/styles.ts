@@ -46,9 +46,8 @@ export const StyledSubCard = styled.div`
   @media screen and (min-width: 1440px) {
     width: 33%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(5%, -5%);
+    top:990px;
+    right:18%;
   }
 `;
 export const StyledMainCard = styled.div`
@@ -88,12 +87,6 @@ export const StyledMainCard = styled.div`
     margin: 0 auto;
     height: 600px;
     width: 83%;
-    :nth-child(2) {
-      width: 20%;
-      top: 50%;
-      left: 50%;
-      transform: translate(-165%, -45%);
-    }
   }
 `;
 export const Title = styled.span`

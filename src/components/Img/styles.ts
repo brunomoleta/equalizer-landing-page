@@ -26,7 +26,8 @@ export const StyledImage = styled.img`
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
-    top: -200px;
-    left: -300px;
+    width:22%;
+    top:700px;
+    left:19%;
   }
 `;
