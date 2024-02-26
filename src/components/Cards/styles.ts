@@ -17,9 +17,7 @@ export const StyledSubCard = styled.div`
     width: 375px;
     height: 546px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 12%);
+    top:900px;
     color: #fcfaf9;
   }
 
@@ -31,7 +29,7 @@ export const StyledSubCard = styled.div`
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-30%, -55%);
+    transform: translate(-30%, 5%);
     z-index: 800;
   }
 
