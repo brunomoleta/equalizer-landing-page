@@ -11,7 +11,7 @@ export const StyledSubCard = styled.div`
   * {
     margin: 5% 0;
   }
-    
+
   /* mobile screen */
   @media screen and (max-width: 767px) {
     width: 375px;

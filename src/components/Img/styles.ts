@@ -6,8 +6,10 @@ export const StyledImage = styled.img`
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
-    top: -250px;
-    left: 50px;
+    width:50%;
+    top:610px;
+    left:50%;
+    transform:translate(-50%,-50%);
   }
 
   /* Tablet screen  */
