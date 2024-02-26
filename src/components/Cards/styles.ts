@@ -7,15 +7,19 @@ export const StyledSubCard = styled.div`
   padding: 5% 5%;
   border-radius: 20px;
   color: #fcfaf9;
+
   * {
     margin: 5% 0;
   }
+    
   /* mobile screen */
   @media screen and (max-width: 767px) {
     width: 375px;
     height: 546px;
-    position: relative;
-    top: -210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 12%);
     color: #fcfaf9;
   }
 
@@ -24,10 +28,10 @@ export const StyledSubCard = styled.div`
     width: 399px;
     height: 546px;
     border-radius: 20px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-30%,5%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -55%);
     z-index: 800;
   }
 
@@ -37,17 +41,17 @@ export const StyledSubCard = styled.div`
     height: auto;
     position: absolute;
     top: 45%;
-    left:46%;
+    left: 46%;
     z-index: 800;
   }
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
-    width:33%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(5%,-5%);
+    width: 33%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, -5%);
   }
 `;
 export const StyledMainCard = styled.div`
@@ -62,7 +66,7 @@ export const StyledMainCard = styled.div`
       width: 54%;
       position: absolute;
       margin: 0 auto;
-      top: 480px;
+      top: 420px;
       left: 83px;
     }
   }
@@ -97,15 +101,15 @@ export const StyledMainCard = styled.div`
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
-    max-height:1000px;
+    max-height: 1000px;
     margin: 0 auto;
-    height:600px;
-    width:83%;
-    :nth-child(2){
-      width:20%;
-      top:50%;
-      left:50%;
-      transform:translate(-165%,-45%);
+    height: 600px;
+    width: 83%;
+    :nth-child(2) {
+      width: 20%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-165%, -45%);
     }
   }
 `;
