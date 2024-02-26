@@ -140,6 +140,7 @@ export const StyledCard = styled.section`
   margin-bottom: 200px;
   // Mobile screen size
   @media screen and (max-width: 767px) {
+    margin-bottom:350px;
   }
 
   // Teblet screen size
