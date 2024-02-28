@@ -140,17 +140,15 @@ export const StyledCard = styled.section`
   margin-bottom: 200px;
   // Mobile screen size
   @media screen and (max-width: 767px) {
-    margin-bottom:350px;
+    margin-bottom:450px;
   }
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    // background-color:green;
   }
 
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    // background-color:blue;
     margin-top: 0;
   }
 
