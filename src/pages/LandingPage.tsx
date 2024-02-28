@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { StyledLandingPage } from "./styles";
+import { StyledLandingPage,StyledScreenDetect } from "./styles";
 import { theme, font } from "../utilities";
 import Card from "./sections/Card";
 import Footer from "./sections/Footer";
@@ -64,9 +64,11 @@ class LandingPage extends Component {
         <Header windowWidth={windowWidth} windowHeight={windowHeight} />
         <Card />
         <Footer />
-        <h1>Now device for : {screenNow}</h1>
-        <h1>Width of screen: {windowWidth}</h1>
-        <h1>Height of screen: {windowHeight}</h1>
+        <StyledScreenDetect>
+          <h1>Now device for : {screenNow}</h1>
+          <h1>Width of screen: {windowWidth}</h1>
+          <h1>Height of screen: {windowHeight}</h1>
+        </StyledScreenDetect>
       </StyledLandingPage>
     );
   }

@@ -31,3 +31,10 @@ export const StyledLandingPage = styled.section<{
     // background-color:yellow;
   }
 `;
+export const StyledScreenDetect = styled.section`
+  display:inline-block;
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform:translate(-50%,-10%);
+`;
