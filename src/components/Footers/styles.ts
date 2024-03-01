@@ -23,8 +23,8 @@ export const StyledContentFooter = styled.span`
 
         // Tablet
         @media screen and (min-width:768px) and (max-width:1023px){
-            // background-color:orange;
-            /* padding: 3% 5%; */
+          grid-area:B;
+          padding-left:5%;
         }
 
         // Labtop
@@ -38,10 +38,5 @@ export const StyledContentFooter = styled.span`
             // background-color:red;
             /* padding:5% 5%; */
         }
-
 `;
 
-export const Sentence = styled.p``;
-export const Email = styled.span`
-  color:red;
-`;

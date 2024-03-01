@@ -120,7 +120,11 @@ export const StyledFooter = styled.section`
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    // background-color:green;
+    display:grid; 
+    grid-template-columns:repeat(2,1fr);
+    grid-template-areas:
+    "A A"
+    "B C";
   }
 
   // Labtop screen size
@@ -140,14 +144,12 @@ export const StyledCard = styled.section`
   margin-bottom: 200px;
   // Mobile screen size
   @media screen and (max-width: 767px) {
-    margin-bottom:450px;
+    margin-bottom: 450px;
   }
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-
   }
-
 
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
