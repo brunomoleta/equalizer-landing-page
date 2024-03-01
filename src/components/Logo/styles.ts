@@ -12,6 +12,7 @@ export const StyledLogo = styled.div`
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    padding:3% 3%;
   }
 
   /* Laptop screen */

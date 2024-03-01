@@ -145,7 +145,9 @@ export const StyledCard = styled.section`
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+
   }
+
 
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
