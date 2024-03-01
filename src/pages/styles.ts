@@ -6,14 +6,12 @@ export const StyledLandingPage = styled.section<{
   $font: typeof font;
 }>`
   width: 100%;
-  height:auto;
-  position:relative;
-  overflow:hidden;
+  height: auto;
+  position: relative;
+  overflow: hidden;
 
   // Mobile screen size
   @media screen and (max-width: 767px) {
-    
-    // background-color:red;
   }
 
   // Teblet screen size
@@ -32,9 +30,9 @@ export const StyledLandingPage = styled.section<{
   }
 `;
 export const StyledScreenDetect = styled.section`
-  display:inline-block;
-  position:absolute;
-  top:80%;
-  left:50%;
-  transform:translate(-50%,-10%);
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -10%);
 `;

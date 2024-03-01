@@ -4,7 +4,7 @@ import { theme, font } from "../utilities";
 import Card from "./sections/Card";
 import Footer from "./sections/Footer";
 import Header from "./sections/Header";
-import Image from "../components/Img/Image";
+import ImageBg from "../components/Img/ImageBg";
 import bgMobile from "../assets/bg-main-mobile.png";
 import bgTablet from "../assets/bg-main-tablet.png";
 import bgDesktop from "../assets/bg-main-desktop.png";
@@ -60,7 +60,7 @@ class LandingPage extends Component {
 
     return (
       <StyledLandingPage theme={theme} $font={font}>
-        <Image urlImg={backgroundImage || defaultBackgroundImage} />
+        <ImageBg urlImg={backgroundImage || defaultBackgroundImage} />
         <Header windowWidth={windowWidth} windowHeight={windowHeight} />
         <Card />
         <Footer />
