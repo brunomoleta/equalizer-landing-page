@@ -129,13 +129,18 @@ export const StyledFooter = styled.section`
 
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    // background-color:blue;
+    display:grid; 
+    grid-template-columns:repeat(2,1fr);
+    grid-template-areas:
+    "A A"
+    "B C";
   }
 
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
-  }
+    
+    }
   //
 `;
 

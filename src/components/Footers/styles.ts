@@ -17,26 +17,24 @@ export const StyledContentFooter = styled.span`
   /* color:red; */
   width: 85%;
   padding: 5% 2%;
-        @media screen and (max-width:767px){
-          padding: 2% 4%;
-        }
+    grid-area: B;
+  @media screen and (max-width: 767px) {
+    padding: 2% 4%;
+  }
 
-        // Tablet
-        @media screen and (min-width:768px) and (max-width:1023px){
-          grid-area:B;
-          padding-left:5%;
-        }
+  // Tablet
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    padding-left: 5%;
+  }
 
-        // Labtop
-        @media screen and (min-width:1024px) and (max-width:1439px){
-            // background-color:yellow;
-            /* padding: 5% 5%; */
-        }
+  // Labtop
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    //
+  }
 
-        // Desktop
-        @media screen and (min-width:1440px) and (max-width:1919px){
-            // background-color:red;
-            /* padding:5% 5%; */
-        }
+  // Desktop
+  @media screen and (min-width: 1440px) and (max-width: 1919px) {
+    // background-color:red;
+    /* padding:5% 5%; */
+  }
 `;
-

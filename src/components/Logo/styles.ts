@@ -6,7 +6,7 @@ export const StyledLogo = styled.div`
     padding:5% 3%;
     z-index:3;
 
-  /* mobile screen */
+  /*; mobile screen */
   @media screen and (max-width: 767px) {
   }
 
@@ -19,10 +19,12 @@ export const StyledLogo = styled.div`
   /* Laptop screen */
   @media screen and (min-width:1024px) and (max-width:1439px){
     padding-left:5%;
+    grid-area:A;
   }
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) {
     padding-left:10%;
   }
+  
 `;

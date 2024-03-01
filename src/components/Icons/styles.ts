@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContainerIcon = styled.div`
-
   // Mobile screen size
   @media screen and (max-width: 767px) {
     margin: 20px 10px;
@@ -16,15 +15,19 @@ export const ContainerIcon = styled.div`
     // background-color:green;
     margin-right:5%;
     display:flex;
-    grid-area:C;
     justify-content:end;
     align-items:center;
     gap:20px;
+    grid-area:C;
   }
 
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    // background-color:blue;
+    grid-area:C;
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    margin-right:5%;
   }
 
   // Desktop screen size
