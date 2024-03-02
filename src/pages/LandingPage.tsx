@@ -46,14 +46,14 @@ class LandingPage extends Component {
         ? bgTablet
         : bgDesktop;
 
-    let screenNow =
-      windowWidth <= 767
-        ? "Mobile"
-        : windowWidth <= 1023
-        ? "Tablet"
-        : windowWidth <= 1439
-        ? "Laptop"
-        : "Desktop";
+    // let screenNow =
+    //   windowWidth <= 767
+    //     ? "Mobile"
+    //     : windowWidth <= 1023
+    //     ? "Tablet"
+    //     : windowWidth <= 1439
+    //     ? "Laptop"
+    //     : "Desktop";
 
     // Provide a default background image if backgroundImage is undefined
     const defaultBackgroundImage = bgMobile; // Change this to your preferred default
