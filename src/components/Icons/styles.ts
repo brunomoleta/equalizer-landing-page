@@ -28,10 +28,16 @@ export const ContainerIcon = styled.div`
     align-items:center;
     justify-content:end;
     margin-right:5%;
+    gap:25px;
   }
 
   // Desktop screen size
   @media screen and (min-width: 1440px) {
-    // background-color:yellow;
+    grid-area:C;
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    margin-right:5%;
+    gap:25px;
   }
 `;

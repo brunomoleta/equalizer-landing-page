@@ -30,11 +30,17 @@ export const StyledContentFooter = styled.span`
   // Labtop
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
     //
+    padding-left:10%;
   }
 
   // Desktop
   @media screen and (min-width: 1440px) and (max-width: 1919px) {
-    // background-color:red;
-    /* padding:5% 5%; */
+    grid-area: B;
+    padding-left:10%;
+  }
+
+  @media screen and (min-width:1920px){
+    grid-area:B;
+    padding-left:10%;
   }
 `;
