@@ -52,23 +52,21 @@ export const StyledImageBg = styled.img`
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    width: 35%;
-    top: 600px;
-    left: 10%;
+    width:150%;
+    top: -120px;
+    right:-70px;
   }
 
   /* Laptop screen */
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    width: 27%;
-    top: 680px;
-    left: 9%;
+    width:140%;
+    top:-50px;
+    left:-250px;
   }
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) and (max-width: 1919px) {
-    width: 22%;
-    top: 700px;
-    left: 18%;
+
   }
 
   @media screen and (min-width: 1920px) {
