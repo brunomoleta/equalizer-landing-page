@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { StyledLandingPage,StyledScreenDetect } from "./styles";
+import { StyledLandingPage} from "./styles";
 import { theme, font } from "../utilities";
 import Card from "./sections/Card";
 import Footer from "./sections/Footer";
