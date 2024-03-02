@@ -70,8 +70,8 @@ export const StyledImageBg = styled.img`
   }
 
   @media screen and (min-width: 1920px) {
-    width: 17%;
-    top: 830px;
-    left: 18%;
+    width:120%;  
+    top:-10%;
+    left:-10%;
   }
 `;
