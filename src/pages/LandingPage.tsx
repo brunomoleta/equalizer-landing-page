@@ -64,11 +64,11 @@ class LandingPage extends Component {
         <Header windowWidth={windowWidth} windowHeight={windowHeight} />
         <Card />
         <Footer />
-        <StyledScreenDetect>
+        {/* <StyledScreenDetect>
           <h1>Now device for : {screenNow}</h1>
           <h1>Width of screen: {windowWidth}</h1>
           <h1>Height of screen: {windowHeight}</h1>
-        </StyledScreenDetect>
+        </StyledScreenDetect> */}
       </StyledLandingPage>
     );
   }
