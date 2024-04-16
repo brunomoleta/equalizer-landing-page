@@ -13,7 +13,7 @@ export default class TestBtn extends Component<TesetBtnProps> {
   render(): ReactNode {
     const { label, color, ...rest } = this.props;
     return (
-      <StyledTestBtn color={color} {...rest} >
+      <StyledTestBtn color={color} {...rest}>
         {label}
       </StyledTestBtn>
     );

@@ -27,7 +27,8 @@ export default class DownloadBtn extends Component<DownloadBtnProps> {
             />
           </svg>
         )}
-        <div>{label}</div><span>download</span>
+        <div>{label}</div>
+        <span>download</span>
       </StyledDownloadBtn>
     );
   }
