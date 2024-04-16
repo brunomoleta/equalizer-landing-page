@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { StyledLandingPage} from "./styles";
+import { StyledLandingPage } from "./styles";
 import { theme, font } from "../utilities";
 import Card from "./sections/Card";
 import Footer from "./sections/Footer";
@@ -43,8 +43,8 @@ class LandingPage extends Component {
       windowWidth <= 767
         ? bgMobile
         : windowWidth <= 1023
-        ? bgTablet
-        : bgDesktop;
+          ? bgTablet
+          : bgDesktop;
 
     // let screenNow =
     //   windowWidth <= 767
@@ -61,8 +61,8 @@ class LandingPage extends Component {
     return (
       <StyledLandingPage theme={theme} $font={font}>
         <ImageBg urlImg={backgroundImage || defaultBackgroundImage} />
-        <Header windowWidth={windowWidth} windowHeight={windowHeight} />
-        <Card />
+        <Header />
+        <Card windowWidth={windowWidth} windowHeight={windowHeight} />
         <Footer />
         {/* <StyledScreenDetect>
           <h1>Now device for : {screenNow}</h1>
@@ -73,4 +73,5 @@ class LandingPage extends Component {
     );
   }
 }
+
 export default LandingPage;
