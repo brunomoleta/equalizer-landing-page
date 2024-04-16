@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { theme, font } from "../utilities";
 
-export const StyledLandingPage = styled.section<{
+export const StyledLandingPage = styled.div<{
   theme: typeof theme;
   $font: typeof font;
 }>`

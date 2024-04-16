@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const StyledHeader = styled.section`
+export const StyledHeader = styled.header`
   width: 100%;
   height: auto;
   margin-bottom: 20%;
@@ -9,6 +9,7 @@ export const StyledHeader = styled.section`
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-bottom: revert;
     // background-color:green;
   }
 
@@ -21,13 +22,13 @@ export const StyledHeader = styled.section`
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
-    margin-bottom: 10%;
+    margin-bottom: revert;
   }
 `;
 
 // BoxHeaderContent2
 
-export const StyledBoxHeaderContent = styled.div`
+export const StyledBoxHeaderContent = styled.section`
   font-family: "IBM Plex Sans";
   font-style: normal;
   color: #191826;
@@ -36,7 +37,6 @@ export const StyledBoxHeaderContent = styled.div`
   padding: 5% 3%;
   * {
     margin: 2% 0%;
-    z-index: 500;
   }
 
   //Mobile screen
@@ -112,7 +112,7 @@ export const StyledBoxHeaderContent = styled.div`
   }
 `;
 
-export const StyledFooter = styled.section`
+export const StyledFooter = styled.footer`
   // Mobile screen size
   @media screen and (max-width: 767px) {
     // background-color:red;
@@ -120,33 +120,32 @@ export const StyledFooter = styled.section`
 
   // Teblet screen size
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    display:grid; 
-    grid-template-columns:repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-    "A A"
-    "B C";
+      "A A"
+      "B C";
   }
 
   // Labtop screen size
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    display:grid; 
-    grid-template-columns:repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-    "A A"
-    "B C";
+      "A A"
+      "B C";
   }
 
   // Desktop screen size
   @media screen and (min-width: 1440px) {
     // background-color:yellow;
-    
-    }
+  }
   //
 `;
 
 export const StyledCard = styled.section`
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-block-end: 200px;
   // Mobile screen size
   @media screen and (max-width: 767px) {
     margin-bottom: 450px;

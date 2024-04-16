@@ -13,7 +13,6 @@ const GlobalStyles = createGlobalStyle<{
 
     body {
         // Mobile 
-        z-index:1000;
         @media screen and (max-width:767px){
             //
             
