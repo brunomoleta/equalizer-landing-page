@@ -1,5 +1,5 @@
 import { Component, ReactNode } from "react";
-import {StyledImageBg} from './styles'
+import { StyledImageBg } from "./styles";
 
 interface ImgProps {
   urlImg: string;
@@ -8,6 +8,6 @@ interface ImgProps {
 export default class ImageBg extends Component<ImgProps> {
   render(): ReactNode {
     const { urlImg } = this.props;
-    return <StyledImageBg src={urlImg} />;
+    return <StyledImageBg alt="" src={urlImg} />;
   }
 }
