@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const StyledImage = styled.img`
   position: absolute;
-  z-index: 1;
+  opacity: 0.99;
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
     width: 55%;
-    top: 640px;
+    top: -40px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -17,6 +17,7 @@ export const StyledImage = styled.img`
     width: 35%;
     top: 600px;
     left: 10%;
+    opacity: revert;
   }
 
   /* Laptop screen */
@@ -42,36 +43,35 @@ export const StyledImage = styled.img`
 
 export const StyledImageBg = styled.img`
   position: absolute;
-  z-index: 1;
+  z-index: -1;
 
   /* mobile screen */
   @media screen and (max-width: 767px) {
-    top:-250px;
-    left:10px;
+    top: -250px;
+    left: 10px;
   }
 
   /* Tablet screen  */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    width:150%;
+    width: 150%;
     top: -120px;
-    right:-70px;
+    right: -70px;
   }
 
   /* Laptop screen */
   @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    width:140%;
-    top:-50px;
-    left:-250px;
+    width: 140%;
+    top: -50px;
+    left: -250px;
   }
 
   /* Desktop screen */
   @media screen and (min-width: 1440px) and (max-width: 1919px) {
-
   }
 
   @media screen and (min-width: 1920px) {
-    width:120%;  
-    top:-10%;
-    left:-10%;
+    width: 120%;
+    top: -10%;
+    left: -10%;
   }
 `;

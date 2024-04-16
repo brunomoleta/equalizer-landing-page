@@ -15,13 +15,21 @@ export const StyledTestBtn = styled.button<BtnProps>`
   font-size: ${(props) => props.size};
 `;
 
+interface ButtonsProps {
+  gap: string;
+}
+
+export const Container = styled.div<ButtonsProps>`
+  display: flex;
+  flex-flow: column;
+  gap: ${({ gap }) => gap};
+`;
 export const StyledDownloadBtn = styled.button<BtnProps>`
   border-radius: 12px;
   background-color: ${(props) =>
     props.label === "Android" ? "#FCFAF9" : "#191826"};
   color: ${(props) => (props.label === "Android" ? "black" : "#FCFAF9")};
   border: none;
-  max-width: 333px;
   max-height: 61px;
   width: 99%;
   height: 62px;
@@ -64,8 +72,8 @@ export const StyledDownloadBtn = styled.button<BtnProps>`
   @media screen and (min-width: 1440px) {
   }
 
-  @media screen and (min-width:1920px){
-    max-width:500px;
-    width:100%;
+  @media screen and (min-width: 1920px) {
+    max-width: 500px;
+    width: 100%;
   }
 `;
